@@ -18,6 +18,7 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
+
 	Button login;
 	boolean isServerSideLogin = false;
 	public static Tencent mTencent;
