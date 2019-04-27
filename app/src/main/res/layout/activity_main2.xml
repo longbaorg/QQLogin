@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".Main2Activity">
+	<TextView
+			android:id="@+id/nickname"
+			android:layout_width="404dp"
+			android:layout_height="41dp"
+			android:autoText="true"
+			android:lines="5"
+			android:singleLine="false"
+			android:text="恭喜你，登录成功！您的昵称是："
+			android:textColor="?android:attr/colorPrimaryDark"
+			android:textSize="12sp"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="454dp" tools:ignore="MissingConstraints,NewApi"/>
+</android.support.constraint.ConstraintLayout>
